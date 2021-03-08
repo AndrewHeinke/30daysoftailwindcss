@@ -1,16 +1,18 @@
 {
   "name": "30daysoftailwindcss",
   "version": "1.0.0",
+  "homepage": "http:andrewheinke.github.io/30daysoftailwindcss",
   "description": "30 days of tailwind css challenge",
   "scripts": {
     "dev": "vite",
-    "build": "cross-env NODE_ENV=production vite build"
+    "build": "cross-env NODE_ENV=production vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AndrewHeinke/30daysoftailwindcss.git"
   },
-  "homepage": "https://github.com/AndrewHeinke/30daysoftailwindcss#readme",
   "dependencies": {
     "vue": "^3.0.7",
     "vue-router": "^4.0.4"
@@ -20,6 +22,7 @@
     "@vue/compiler-sfc": "^3.0.7",
     "autoprefixer": "^10.2.5",
     "cross-env": "^7.0.3",
+    "gh-pages": "^3.1.0",
     "postcss": "^8.2.7",
     "tailwindcss": "^2.0.3",
     "vite": "^2.0.5"
