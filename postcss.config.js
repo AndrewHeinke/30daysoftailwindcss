@@ -5,7 +5,7 @@ module.exports = {
         require('tailwindcss'),
         require('autoprefixer'),
         cssnano({
-            preset: 'default'
+            preset: 'default',
         }),
-    ]
-}
+    ],
+};
