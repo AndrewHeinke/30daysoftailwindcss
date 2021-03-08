@@ -1,7 +1,7 @@
 {
   "name": "30daysoftailwindcss",
   "version": "1.0.0",
-  "homepage": "http:andrewheinke.github.io/30daysoftailwindcss",
+  "homepage": "https://AndrewHeinke.github.io/30daysoftailwindcss",
   "description": "30 days of tailwind css challenge",
   "scripts": {
     "dev": "vite",
