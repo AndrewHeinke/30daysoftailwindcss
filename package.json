@@ -1,0 +1,33 @@
+{
+  "name": "30daysoftailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/tailwind.css -o static/dist/tailwind.css",
+    "watch": "watch 'npm run build:css' ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewHeinke/30daysoftailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewHeinke/30daysoftailwindcss/issues"
+  },
+  "homepage": "https://github.com/AndrewHeinke/30daysoftailwindcss#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "cssnano": "^4.1.10",
+    "prettier": "2.2.1"
+  }
+}
