@@ -1,17 +1,25 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./src/**/*.html'],
-  },
-  darkMode: 'media',
-  theme: {
-    container: {
-      center: true,
-      padding: '1rem',
+    purge: {
+        enabled: process.env.NODE_ENV === 'production',
+        safeList: [],
+        content: ['./index.html', './src/**/*.vue', './src/**/*.js'],
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+    darkMode: 'media',
+    theme: {
+        container: {
+            center: true,
+        },
+        extend: {
+            fontWeight: ['hover', 'focus'],
+            fontFamily: {
+                sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+            },
+        },
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [],
+};
