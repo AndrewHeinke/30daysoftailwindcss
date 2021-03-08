@@ -5,6 +5,4 @@ npm install
 npm run dev
 ```
 
-To Dos:
-
--   [ ] Set up demos to deploy through github pages
+[View Challenges Demos →](https://andrewheinke.github.io/30daysoftailwindcss/)
