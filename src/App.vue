@@ -1,22 +1,27 @@
 <template>
     <div>
         <nav class="bg-gray-800 border-b border-gray-600">
-            <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="container">
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <router-link to="/" v-slot="{ navigate, href }">
-                                <a :href="href" @click="navigate">
-                                    <img
-                                        class="h-8 w-8"
-                                        src="/img/logos/workflow-mark-on-dark.svg"
-                                        alt="Workflow logo"
+                            <router-link
+                                class="p-2 block fill-current text-gray-300 hover:bg-gray-700 rounded-md focus:outline-none focus:bg-gray-700 focus:text-white hover:text-whites"
+                                to="/"
+                            >
+                                <svg
+                                    class="h-8 w-8"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 242.41 323.21"
+                                >
+                                    <path
+                                        d="M161.6 80.8v80.8H80.8V80.8H0v242.41h80.8v-80.8h80.8v80.8h80.81V80.8H161.6zM80.8 0h80.8v80.8H80.8z"
                                     />
-                                </a>
+                                </svg>
                             </router-link>
                         </div>
                         <div class="hidden md:block">
-                            <div class="ml-10 flex items-baseline">
+                            <div class="ml-4 flex items-baseline">
                                 <router-link
                                     v-for="(link, i) in links"
                                     :key="i"
@@ -111,16 +116,16 @@
             </div>
         </nav>
 
-        <header class="bg-white shadow" v-if="$route.meta.title">
-            <div class="max-w-screen-xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                <h1 class="text-3xl font-bold leading-tight text-gray-900">
+        <header class="dark:bg-gray-800 dark:text-white" v-if="$route.meta.title">
+            <div class="container py-6 px-4">
+                <h1 class="text-4xl font-bold leading-tight mb-4">
                     {{ $route.meta.title }} Challenge
                 </h1>
-                <p v-if="$route.meta.description">{{ $route.meta.description }}</p>
+                <p class="text-xl" v-if="$route.meta.description">{{ $route.meta.description }}</p>
             </div>
         </header>
 
-        <div class="max-w-screen-xl mx-auto py-6 sm:px-6 lg:px-8">
+        <div class="container py-6">
             <router-view />
         </div>
     </div>
@@ -136,6 +141,11 @@ export default defineComponent({
         links: [
             { text: 'Day 1', to: '/day1' },
             { text: 'Day 2', to: '/day2' },
+            { text: 'Day 3', to: '/day3' },
+            { text: 'Day 4', to: '/day4' },
+            { text: 'Day 5', to: '/day5' },
+            { text: 'Day 6', to: '/day6' },
+            { text: 'Day 7', to: '/day7' },
         ],
     }),
 });

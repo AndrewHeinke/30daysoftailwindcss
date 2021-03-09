@@ -4,12 +4,13 @@ module.exports = {
     purge: {
         enabled: process.env.NODE_ENV === 'production',
         safeList: [],
-        content: ['./index.html', './src/**/*.vue', './src/**/*.js'],
+        content: ['./*.html', './src/**/*.vue', './src/**/*.js'],
     },
     darkMode: 'media',
     theme: {
         container: {
             center: true,
+            padding: '1rem',
         },
         extend: {
             fontWeight: ['hover', 'focus'],
@@ -21,5 +22,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/typography')],
 };
