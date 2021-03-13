@@ -23,3 +23,7 @@
     animation-name: pulse;
     animation-duration: 3s;
 }
+
+.form-container {
+    max-width: 680px;
+}

@@ -6,6 +6,11 @@ import Day4 from './views/Day4.vue';
 import Day5 from './views/Day5.vue';
 import Day6 from './views/Day6.vue';
 import Day7 from './views/Day7.vue';
+import Day8 from './views/Day8.vue';
+import Day9 from './views/Day9.vue';
+import Day10 from './views/Day10.vue';
+import Day11 from './views/Day11.vue';
+import Day12 from './views/Day12.vue';
 import NotFound from './views/NotFound.vue';
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -70,6 +75,51 @@ export let routes = [
         component: Day7,
         meta: {
             title: 'Day 7',
+            description:
+                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+        },
+    },
+    {
+        path: '/day8',
+        component: Day8,
+        meta: {
+            title: 'Day 8',
+            description:
+                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+        },
+    },
+    {
+        path: '/day9',
+        component: Day9,
+        meta: {
+            title: 'Day 9',
+            description:
+                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+        },
+    },
+    {
+        path: '/day10',
+        component: Day10,
+        meta: {
+            title: 'Day 10',
+            description:
+                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+        },
+    },
+    {
+        path: '/day11',
+        component: Day11,
+        meta: {
+            title: 'Day 11',
+            description:
+                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+        },
+    },
+    {
+        path: '/day12',
+        component: Day12,
+        meta: {
+            title: 'Day 12',
             description:
                 'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
         },

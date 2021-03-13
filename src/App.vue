@@ -3,7 +3,7 @@
         <nav class="bg-gray-800 border-b border-gray-600">
             <div class="container">
                 <div class="flex items-center justify-between h-16">
-                    <div class="flex items-center">
+                    <div class="flex items-center overflow-x-auto">
                         <div class="flex-shrink-0">
                             <router-link
                                 class="p-2 block fill-current text-gray-300 hover:bg-gray-700 rounded-md focus:outline-none focus:bg-gray-700 focus:text-white hover:text-whites"
@@ -32,7 +32,7 @@
                                     <a
                                         :href="href"
                                         @click="navigate"
-                                        class="px-3 py-2 rounded-md text-sm font-medium"
+                                        class="px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap"
                                         :class="[
                                             isExactActive
                                                 ? 'text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700'
@@ -146,6 +146,11 @@ export default defineComponent({
             { text: 'Day 5', to: '/day5' },
             { text: 'Day 6', to: '/day6' },
             { text: 'Day 7', to: '/day7' },
+            { text: 'Day 8', to: '/day8' },
+            { text: 'Day 9', to: '/day9' },
+            { text: 'Day 10', to: '/day10' },
+            { text: 'Day 11', to: '/day11' },
+            { text: 'Day 12', to: '/day12' },
         ],
     }),
 });
