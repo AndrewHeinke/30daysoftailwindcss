@@ -67,7 +67,7 @@ export let routes = [
         meta: {
             title: 'Day 6',
             description:
-                'Create an avatar inside a card along with some text, and make it 100% reponsive.',
+                'Create an avatar inside a card along with some text, and make it 100% responsive.',
         },
     },
     {
@@ -85,7 +85,7 @@ export let routes = [
         meta: {
             title: 'Day 8',
             description:
-                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+                'Create a grid with columns and rows, use tailwinds flexbox utilities make it responsive.',
         },
     },
     {
@@ -93,8 +93,7 @@ export let routes = [
         component: Day9,
         meta: {
             title: 'Day 9',
-            description:
-                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+            description: 'Create a 5 widget and position them differently on the website.',
         },
     },
     {
@@ -103,7 +102,7 @@ export let routes = [
         meta: {
             title: 'Day 10',
             description:
-                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+                'Make a card with and image and text. The text has to be on top of the image, use absolute and relative.',
         },
     },
     {
@@ -112,7 +111,7 @@ export let routes = [
         meta: {
             title: 'Day 11',
             description:
-                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+                'Make some sections and a container within and give them different widths and heights.',
         },
     },
     {
@@ -121,7 +120,7 @@ export let routes = [
         meta: {
             title: 'Day 12',
             description:
-                'Create a navigation bar with logo, links and a CTA. Make it fixed, sticky or normal.',
+                'Create a section with an image, with text to the right, left or underneath or on top of it. Make it responsive.',
         },
     },
     { path: '/:path(.*)', component: NotFound },
