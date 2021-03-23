@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="rounded-lg p-8 md:p-8 bg-gray-100 shadow-2xl">
+        <div class="demo-container">
             <article class="prose lg:prose-xl">
                 <h1>Send weighed faces Dwarvish grant lowest lowly key-hole!</h1>
                 <p>

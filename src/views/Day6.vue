@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="rounded-lg p-8 md:p-8 bg-gray-100 shadow-2xl">
+        <div class="demo-container">
             <div class="bg-white relative shadow-xl w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 mx-auto mt-20">
                 <div class="flex justify-center">
                     <img

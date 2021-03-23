@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="rounded-lg p-8 md:p-8 bg-gray-100 shadow-2xl">
+        <div class="demo-container">
             <label for="character-select" class="block text-sm font-medium text-gray-700">
                 Character
             </label>

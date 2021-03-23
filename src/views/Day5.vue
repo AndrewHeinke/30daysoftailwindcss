@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="rounded-lg p-8 md:p-8 bg-gray-100 shadow-2xl">
+        <div class="demo-container">
             <form action="#" method="POST" onsubmit="return false;">
                 <div class="grid md:grid-cols-2 gap-4 form-container mx-auto">
                     <div>

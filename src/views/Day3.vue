@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="rounded-lg p-4 md:p-8 bg-gray-100 shadow-2xl">
+        <div class="demo-container">
             <div class="flex flex-wrap">
                 <button
                     type="button"
